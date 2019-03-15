@@ -2,12 +2,31 @@
 
 Api Test.
 
-## Installation
+## Instalación
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Clonar proyecto.
 
 ```bash
-pip install foobar
+ git clone https://github.com/spalacios/Summa.git summa_spalacios/
+```
+Instalar Symfony y dependencias.
+
+```bash
+ composer install
+```
+Correr servidor local.
+
+```bash
+ summa_spalacios/> php bin/console server:run
+                                                                                                                        
+ [OK] Server listening on http://127.0.0.1:8000                                                                         
+                                                                                                                        
+ // Quit the server with CONTROL-C.               
+```
+## Observaciones.
+- El proyecto incluye una base de datos sqlite con datos precargados, puede ser necesario instalar el driver para PHP.
+```bash
+ apt-get install php-sqlite3 
 ```
 
 ## Uso
