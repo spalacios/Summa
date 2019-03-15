@@ -21,19 +21,6 @@ class TypeDesignerType extends AbstractType
                     new Assert\NotBlank()
                 ]
             ])
-            ##TODO: Fix me save EntityTypes
-            ->add('company_id', IntegerType::class, [
-                'mapped' => false,
-                'constraints'=> [
-                    new Assert\NotBlank()
-                ]
-            ])
-            ->add('type_designer_id', IntegerType::class, [
-                'mapped' => false,
-                'constraints'=> [
-                    new Assert\NotBlank()
-                ]
-            ])
         ;
     }
 
