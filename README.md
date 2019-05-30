@@ -41,10 +41,12 @@ POST        /api/company
 PUT         /api/company/{id}
 DELETE      /api/company/{id}
 
-body: 
+body:
+```json
 {
    "name": "Summa Solutions"
-} 
+}
+```
 
 #### - Developer
 
@@ -55,6 +57,7 @@ PUT     /api/developer/{id}
 DELETE  /api/developer/{id}                
 
 body: 
+```json
 {
    "name": "Jose",
    "lastName": "Prueba",
@@ -62,6 +65,7 @@ body:
    "company_id": 1,
    "language_id": 1
 }
+```
 
 #### - Designer
 
@@ -71,7 +75,8 @@ POST    /api/designer
 PUT     /api/designer/{id}                 
 DELETE  /api/designer/{id} 
               
-body: 
+body:
+```json
 {
 	"name": "Juan",
 	"lastName": "Pablo",
@@ -79,6 +84,7 @@ body:
 	"company_id": 1,
 	"desing_type_id": 1
 }
+```
 
 
 #### - Language
@@ -90,9 +96,11 @@ PUT      /api/language/{id}
 DELETE   /api/language/{id} 
               
 body: 
+```json
 {
    "name": "PHP"
 }
+```
 
 #### - Designer Type
 
@@ -102,10 +110,12 @@ POST     /api/designer-type
 PUT      /api/designer-type/{id}            
 DELETE   /api/designer-type/{id}
               
-body: 
+body:
+```json
 {
    "name": "Web"
 }
+```
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
